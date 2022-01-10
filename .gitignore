@@ -1,5 +1,9 @@
 # Git Ignore 
-# Restaurant Page
+# Odin ToDo
 
 # Node Modules
 node_modules/
+
+# Distribution Directory
+dist
+
