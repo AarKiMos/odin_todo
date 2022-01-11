@@ -37,6 +37,42 @@
     background-color: blue;
 }
 
+.mainContent {
+    /* display: flex; */
+}
+
+.sidebar {
+    width: 20%;
+    background-color: red;
+    height: 100%;
+    float: left;
+}
+
+.sideBarTab {
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    height: 35px;
+    padding: 5px 0px;
+    background-color: maroon;
+
+}
+
+.mainPanel {
+    width: 80%;
+    background-color: teal;
+    height: 100%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 769px) {
     .header {
         flex-wrap: wrap;
@@ -57,3 +93,4 @@
         height: 50px
     }
 }
+

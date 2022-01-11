@@ -24,7 +24,7 @@ function header() {
     element.appendChild(titleBox);
     element.appendChild(btnBox);
 
-    return element
+    return element;
 }
 
 export default header;
