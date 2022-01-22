@@ -17,14 +17,14 @@ function header() {
         btnBox.appendChild(e);
     }
 
-    btnBox.children[0].innerText = 'Home';
-    btnBox.children[1].innerText = 'About';
+    btnBox.children[0].innerText = 'New Item';
+    btnBox.children[1].innerText = 'New Project';
     btnBox.children[2].innerText = 'Contact';
 
     element.appendChild(titleBox);
     element.appendChild(btnBox);
 
-    return element;
+    return {element, titleBox, btnBox};
 }
 
 export default header;

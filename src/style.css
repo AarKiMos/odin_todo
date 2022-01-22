@@ -63,11 +63,29 @@
     background-color: teal;
     height: 100%;
     float: left;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
+.todoCard {
+    width: 300px;
+    height: 250px;
+    border-radius: 20px;
+    background-color: white;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
 
+.todoCardStatusBtn {
+    border: 1px solid black
+}
 
-
+.todoCardStatusBtn:hover {
+    cursor: pointer;
+}
 
 
 
@@ -93,4 +111,3 @@
         height: 50px
     }
 }
-
