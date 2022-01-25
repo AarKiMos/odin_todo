@@ -37,9 +37,9 @@
     background-color: blue;
 }
 
-.mainContent {
-    /* display: flex; */
-}
+/* .mainContent {
+     display: flex; 
+} */
 
 .sidebar {
     width: 20%;
@@ -87,7 +87,16 @@
     cursor: pointer;
 }
 
-
+.inputForm {
+    width: 50%;
+    height: 50vh;
+    background-color: lime;
+    position: fixed;
+    top: 25vh;
+    left: 25%;
+    padding: 5%;
+    text-align: center;
+}
 
 
 

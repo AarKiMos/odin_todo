@@ -1,11 +1,12 @@
-import header from './header.js';
-import sidebar from './sidebar.js';
-import mainPanel from './mainPanel.js';
+import header from './client/header.js';
+import sidebar from './client/sidebar.js';
+import mainPanel from './client/mainPanel.js';
 
 import { todoObject, addTodo } from './todoObject.js';
 import { todoCard } from './todoCard.js';
+import createFormElement from './client/inputForm.js';
 
-import './style.css';
+import './styles/style.css';
 
 const body = document.querySelector("body");
 
@@ -35,3 +36,7 @@ function addAtodo() {
     cardList.push(card);
 }
 
+head.btnBox.children[2].addEventListener('click', () => {
+    let element = createFormElement();
+    body.appendChild(element);
+})
